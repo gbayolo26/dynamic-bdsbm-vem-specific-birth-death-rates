@@ -1,4 +1,4 @@
-# dynamic-bdsbm-vem
+# dynamic-bdsbm-vem-specific-birth-death-rates
 ## Variational EM inference for a dynamic Birth–Death Stochastic Block Model
 
 This repository provides a **Variational EM (VEM)** implementation for a **dynamic Birth–Death Stochastic Block Model (BD-SBM)**. The model is designed for networks in which individuals **arrive and depart over time** according to a **birth–death process**.
@@ -13,16 +13,16 @@ This repository provides tools to:
 ### Main components
 
 - Data generation (birth–death process + SBM interactions)  
-  ([code here](./BDSBM/data_generation.py))
+  ([code here](./BDSBM_Specific_birth_death_rates/data_generation.py))
 
 - VEM inference for the dynamic BD-SBM (dense interaction counts)  
-  ([code here](./BDSBM/Dynamic_BDSBM_VEM.py))
+  ([code here](./BDSBM_Specific_birth_death_rates/Dynamic_BDSBM_VEM.py))
 
 - VEM inference for the dynamic BD-SBM (sparse CSR interaction counts)  
-  ([code here](./BDSBM/Dynamic_BDSBM_VEM_sparse.py))
+  ([code here](./BDSBM_Specific_birth_death_rates/Dynamic_BDSBM_VEM_sparse.py))
 
 - Utility functions (ELBO, ICL computation, Poisson–binomial distribution, etc.)  
-  ([code here](./BDSBM/utils.py))
+  ([code here](./BDSBM_Specific_birth_death_rates/utils.py))
 
 ---
 
@@ -37,7 +37,8 @@ This repository provides tools to:
 The following notebook contains an example showing how to run the model:
 
 - **Dynamic Birth–Death SBM (VEM) notebook**  
-  ([notebook here](https://github.com/gbayolo26/dynamic-bdsbm-vem/blob/main/Dynamic_Birth-Death_SBM_VEM.ipynb))
+  ([notebook here](https://github.com/gbayolo26/dynamic-bdsbm-vem-specific-birth-death-rates
+/blob/main/Dynamic_Birth-Death_SBM_VEM.ipynb))
 
 A complete end-to-end example (data generation → model fitting → model selection → plots) is provided.
 
