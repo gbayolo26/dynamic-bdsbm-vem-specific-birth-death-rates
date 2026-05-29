@@ -37,8 +37,8 @@ This repository provides tools to:
 The following notebook contains an example showing how to run the model:
 
 - **Dynamic Birth–Death SBM (VEM) notebook**  
-  ([notebook here](https://github.com/gbayolo26/dynamic-bdsbm-vem-specific-birth-death-rates
-/blob/main/Dynamic_Birth-Death_SBM_VEM.ipynb))
+  ([notebook here]([https://github.com/gbayolo26/dynamic-bdsbm-vem-specific-birth-death-rates
+/blob/main/Dynamic_Birth-Death_SBM_VEM.ipynb](https://github.com/gbayolo26/dynamic-bdsbm-vem-specific-birth-death-rates/blob/main/Dynamic_Birth-Death_SBM_VEM_specific_birth_death_rates.ipynb)))
 
 A complete end-to-end example (data generation → model fitting → model selection → plots) is provided.
 
